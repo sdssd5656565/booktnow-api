@@ -316,14 +316,14 @@ registerAuthRoutes(fastify, {
 })
 
 function buildSearchRuntimePayload(query = {}, requestContext = {}) {
-  if (IS_DEV_RUNTIME && IS_LOCAL_RUNTIME) {
+  if ((IS_DEV_RUNTIME && IS_LOCAL_RUNTIME) || process.env.DEMO_MODE === 'true') {
     return buildRealPartnerDataSearchPayload(query, requestContext)
   }
   return buildNoRealPartnerDataSearchPayload(query)
 }
 
 function buildOffersRuntimePayload(query = {}) {
-  if (IS_DEV_RUNTIME && IS_LOCAL_RUNTIME) {
+  if ((IS_DEV_RUNTIME && IS_LOCAL_RUNTIME) || process.env.DEMO_MODE === 'true') {
     return buildRealPartnerDataOffersPayload(query)
   }
   return buildNoRealPartnerDataOffersPayload(query)
