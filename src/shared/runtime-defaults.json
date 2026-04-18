@@ -1,0 +1,7 @@
+{
+  "local": {
+    "host": "127.0.0.1",
+    "frontendPort": 5173,
+    "backendPort": 3000
+  }
+}
