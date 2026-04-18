@@ -1,0 +1,30 @@
+# Render.com Infrastructure-as-Code
+# Reference: https://render.com/docs/blueprint-spec
+#
+# Deployment options:
+#   A) Automatic: connect this Git repo to Render → "New Blueprint Instance" → pick render.yaml
+#   B) Manual:   create a new Web Service in the UI and copy the settings below
+
+services:
+  - type: web
+    name: booktnow-api
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm install --production
+    startCommand: node backend-server.mjs
+    healthCheckPath: /api/health
+    autoDeploy: false
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CORS_ORIGINS
+        value: https://booktnow.com,https://www.booktnow.com
+      - key: DEMO_MODE
+        value: "true"
+      - key: NODE_VERSION
+        value: "20.15.1"
+
+    # Free-plan services go to sleep after 15 minutes of inactivity.
+    # Pair with UptimeRobot (https://uptimerobot.com) pinging /api/health
+    # every 5 minutes to keep the service warm for partner demos.

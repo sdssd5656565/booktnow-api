@@ -1,0 +1,22 @@
+{
+  "name": "booktnow-backend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "BookTNow backend API (Fastify + better-sqlite3)",
+  "main": "backend-server.mjs",
+  "scripts": {
+    "start": "node backend-server.mjs"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "@fastify/rate-limit": "^10.3.0",
+    "better-sqlite3": "^12.8.0",
+    "dotenv": "^17.3.1",
+    "fastify": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=20",
+    "npm": ">=9"
+  }
+}
