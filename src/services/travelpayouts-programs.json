@@ -1,0 +1,294 @@
+{
+  "programs": [
+    {
+      "id": "klook-activities-1",
+      "name": "Klook Activities",
+      "url": "https://klook.tpk.lu/fKm9zC1h",
+      "status": "inactive",
+      "categories": ["disabled"],
+      "destination": "dubai",
+      "priority": 170,
+      "commission": "8%",
+      "currency": "USD",
+      "description": "Disabled until a valid Klook handoff URL is restored"
+    },
+    {
+      "id": "autoeurope-cars-1",
+      "name": "Auto Europe Car Rental",
+      "url": "https://autoeurope.tpk.lu/hwp5gmmy",
+      "status": "active",
+      "categories": ["cars"],
+      "destination": "global",
+      "priority": 230,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "تأجير سيارات دولي عبر Auto Europe"
+    },
+    {
+      "id": "searadar-activities-1",
+      "name": "SeaRadar Yacht Charter",
+      "url": "https://searadar.tpk.lu/sKcfpHPf",
+      "status": "active",
+      "categories": ["activities"],
+      "destination": "global",
+      "priority": 130,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "حجز يخوت ورحلات إبحار عبر SeaRadar"
+    },
+    {
+      "id": "intui-cars-1",
+      "name": "Intui Airport Transfers",
+      "url": "https://intui.tpk.lu/EcW8uwXB",
+      "status": "active",
+      "categories": ["taxi"],
+      "destination": "global",
+      "priority": 240,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "Airport transfers and shuttle booking via Intui.travel"
+    },
+    {
+      "id": "aviasales-flights-1",
+      "name": "Aviasales Flights",
+      "url": "https://aviasales.tpk.lu/KjTN4Rrw",
+      "status": "active",
+      "categories": ["flights"],
+      "destination": "global",
+      "priority": 180,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "Flight metasearch via Aviasales"
+    },
+    {
+      "id": "aviasales-hotels-1",
+      "name": "Aviasales Hotels",
+      "url": "https://search.hotellook.com",
+      "status": "active",
+      "categories": ["hotels"],
+      "destination": "global",
+      "priority": 85,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "Hotel search via Aviasales and Hotellook"
+    },
+    {
+      "id": "ticketnetwork-events-1",
+      "name": "TicketNetwork Events",
+      "url": "https://ticketnetwork.tpk.lu/J7bo1FSx",
+      "status": "active",
+      "categories": ["events"],
+      "destination": "global",
+      "priority": 60,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "Event and live entertainment ticket discovery via TicketNetwork"
+    },
+    {
+      "id": "tiqets-attractions-1",
+      "name": "Tiqets Attractions",
+      "url": "https://tiqets.tpk.lu/Gy23mzwS",
+      "status": "active",
+      "categories": ["attractions"],
+      "destination": "global",
+      "priority": 225,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "Instant tickets for museums and attractions via Tiqets"
+    },
+    {
+      "id": "kiwitaxi-transfers-1",
+      "name": "Kiwitaxi Transfers",
+      "url": "https://kiwitaxi.tpk.lu/99xL3byl?erid=2VtzqufYrKn",
+      "status": "active",
+      "categories": ["taxi"],
+      "destination": "global",
+      "priority": 210,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "Airport and city transfer booking via Kiwitaxi"
+    },
+    {
+      "id": "gettransfer-taxi-1",
+      "name": "GetTransfer Rides",
+      "url": "https://gettransfer.tpk.lu/fWhuVTbG",
+      "status": "active",
+      "categories": ["taxi"],
+      "destination": "global",
+      "priority": 190,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "Private rides and transfers via GetTransfer"
+    },
+    {
+      "id": "economybookings-cars-1",
+      "name": "EconomyBookings Cars",
+      "url": "https://economybookings.tpk.lu/HzIpplkC",
+      "status": "active",
+      "categories": ["cars"],
+      "destination": "global",
+      "priority": 200,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "Car rental comparison via EconomyBookings"
+    },
+    {
+      "id": "getrentacar-cars-1",
+      "name": "GetRentacar Car Rental",
+      "url": "https://getrentacar.tpk.lu/APtjR8mj",
+      "status": "active",
+      "categories": ["cars"],
+      "destination": "global",
+      "priority": 190,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "Car rental marketplace via GetRentacar"
+    },
+    {
+      "id": "bikesbooking-cars-1",
+      "name": "BikesBooking Rentals",
+      "url": "https://bikesbooking.tpk.lu/mn7sviPe",
+      "status": "active",
+      "categories": ["cars"],
+      "destination": "global",
+      "priority": 160,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "Vehicle and bike rentals via BikesBooking"
+    },
+    {
+      "id": "qeeq-cars-1",
+      "name": "QEEQ Car Rental",
+      "url": "https://qeeq.tpk.lu/lluwlmLv",
+      "status": "active",
+      "categories": ["cars"],
+      "destination": "global",
+      "priority": 150,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "Car rental discovery via QEEQ"
+    },
+    {
+      "id": "localrent-cars-1",
+      "name": "Localrent Cars",
+      "url": "https://localrent.tpk.lu/iBdeT7AW?erid=2VtzqusN8qS",
+      "status": "active",
+      "categories": ["cars"],
+      "destination": "global",
+      "priority": 140,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "Local car rental offers via Localrent"
+    },
+    {
+      "id": "ektatraveling-activities-1",
+      "name": "EktaTraveling Activities",
+      "url": "https://ektatraveling.tpk.lu/oszzr0LY",
+      "status": "inactive",
+      "categories": ["insurance"],
+      "destination": "global",
+      "priority": 100,
+      "commission": "variable",
+      "currency": "USD",
+      "description": "Travel insurance via EktaTraveling"
+    }
+  ],
+  "projects": [
+    {
+      "id": "klook-project",
+      "name": "Klook Activities",
+      "programs": ["klook-activities-1"],
+      "status": "active"
+    },
+    {
+      "id": "autoeurope-project",
+      "name": "Auto Europe Car Rental",
+      "programs": ["autoeurope-cars-1"],
+      "status": "active"
+    },
+    {
+      "id": "searadar-project",
+      "name": "SeaRadar Yacht Charter",
+      "programs": ["searadar-activities-1"],
+      "status": "active"
+    },
+    {
+      "id": "intui-project",
+      "name": "Intui Airport Transfers",
+      "programs": ["intui-cars-1"],
+      "status": "active"
+    },
+    {
+      "id": "aviasales-flights-project",
+      "name": "Aviasales Flights",
+      "programs": ["aviasales-flights-1"],
+      "status": "active"
+    },
+    {
+      "id": "aviasales-hotels-project",
+      "name": "Aviasales Hotels",
+      "programs": ["aviasales-hotels-1"],
+      "status": "active"
+    },
+    {
+      "id": "ticketnetwork-project",
+      "name": "TicketNetwork Events",
+      "programs": ["ticketnetwork-events-1"],
+      "status": "active"
+    },
+    {
+      "id": "tiqets-project",
+      "name": "Tiqets Attractions",
+      "programs": ["tiqets-attractions-1"],
+      "status": "active"
+    },
+    {
+      "id": "kiwitaxi-project",
+      "name": "Kiwitaxi Transfers",
+      "programs": ["kiwitaxi-transfers-1"],
+      "status": "active"
+    },
+    {
+      "id": "gettransfer-project",
+      "name": "GetTransfer Rides",
+      "programs": ["gettransfer-taxi-1"],
+      "status": "active"
+    },
+    {
+      "id": "economybookings-project",
+      "name": "EconomyBookings Cars",
+      "programs": ["economybookings-cars-1"],
+      "status": "active"
+    },
+    {
+      "id": "getrentacar-project",
+      "name": "GetRentacar Car Rental",
+      "programs": ["getrentacar-cars-1"],
+      "status": "active"
+    },
+    {
+      "id": "bikesbooking-project",
+      "name": "BikesBooking Rentals",
+      "programs": ["bikesbooking-cars-1"],
+      "status": "active"
+    },
+    {
+      "id": "qeeq-project",
+      "name": "QEEQ Car Rental",
+      "programs": ["qeeq-cars-1"],
+      "status": "active"
+    },
+    {
+      "id": "localrent-project",
+      "name": "Localrent Cars",
+      "programs": ["localrent-cars-1"],
+      "status": "active"
+    },
+    {
+      "id": "ektatraveling-project",
+      "name": "EktaTraveling Activities",
+      "programs": ["ektatraveling-activities-1"],
+      "status": "inactive"
+    }
+  ]
+}
